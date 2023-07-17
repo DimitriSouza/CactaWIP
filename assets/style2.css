@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F52CDD;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 500px;
+    height: 500px;
+  }
