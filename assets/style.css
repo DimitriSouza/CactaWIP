@@ -16,6 +16,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    height: 100%;
 }
 
 .topo {
@@ -24,6 +25,16 @@ body {
     justify-content: space-between;
     background-color: #F52CDD;
 
+}
+
+.topoAjuda {
+    display: flex;
+    align-items: flex-start;
+    background-color: #F52CDD;
+}
+
+.topoAjuda p {
+    padding-left: 150px;
 }
 
 .topoEmergencia {
@@ -244,4 +255,93 @@ input {
     text-align: center;
 
 }
+.ajudaBotao{
+    width: 50%;
+}
+.ajudaBotao button {
+    width: 174px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    background: #FFF;
+    margin-left: 22px;
+    margin-bottom: 20px;
 
+}
+
+.ajudaBotaoMaior button {
+    width: 174px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    background: #FFF;
+}
+.ajudaBotao h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    padding-left: 13px;
+}
+
+.ajudaBotao h4 {
+    color: rgba(0, 0, 0, 0.42);
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   text-align: left;
+   padding-left: 13px;
+}
+
+.bloco2Ajuda {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(218, 218, 218, 1);
+
+}
+.bloco2Ajuda h2{
+    width: 100%;
+}
+
+.bloco3Ajuda {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(218, 218, 218, 1);
+    width: 100%;
+    
+}
+
+.bloco3Ajuda button {
+    width: 370px;
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 22px;
+    text-align: left;
+    padding-left: 18px;
+}
+
+h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+.fundoAjuda{
+    background-color: rgba(218, 218, 218, 1);
+    height: 100vh;
+}
