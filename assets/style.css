@@ -22,7 +22,7 @@ body {
 .topo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #F52CDD;
 
 }
@@ -304,7 +304,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(218, 218, 218, 1);
-
+    justify-content: space-around
 }
 .bloco2Ajuda h2{
     width: 100%;
